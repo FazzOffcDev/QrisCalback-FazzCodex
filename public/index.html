@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FazzCodex</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+    }
+    h1 {
+      font-size: 3em;
+      margin-bottom: 10px;
+    }
+    p {
+      font-size: 1.2em;
+      max-width: 600px;
+      text-align: center;
+    }
+    .btn {
+      margin-top: 30px;
+      padding: 15px 30px;
+      background: #00c6ff;
+      border: none;
+      border-radius: 8px;
+      color: #000;
+      font-weight: bold;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #0072ff;
+      color: #fff;
+    }
+    .nav {
+      margin-top: 50px;
+      display: flex;
+      gap: 20px;
+    }
+    .nav a {
+      color: #00c6ff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>FazzCodex</h1>
+  <p>Platform otomasi dan integrasi modular untuk bot, QRIS, audit trail, dan ekosistem Virtusim. Dibangun untuk skalabilitas dan transparansi penuh.</p>
+  <button class="btn" onclick="location.href='/qris/callback'">🔁 QRIS Callback</button>
+
+  <div class="nav">
+    <a href="/docs">📄 Dokumentasi</a>
+    <a href="/api">🔌 API</a>
+    <a href="/logs">🧾 Audit Log</a>
+    <a href="/bot">🤖 Bot Handler</a>
+  </div>
+</body>
+</html>
